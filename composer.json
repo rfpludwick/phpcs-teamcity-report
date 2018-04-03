@@ -1,0 +1,33 @@
+{
+  "name": "rfpludwick/phpcs-teamcity-report",
+  "description": "A PHP Code Sniffer report format for JetBrains' TeamCity continuous integration server.",
+  "type": "library",
+  "keywords": [
+    "phpcs",
+    "standards",
+    "teamcity"
+  ],
+  "homepage": "https://github.com/rfpludwick/phpcs-teamcity-report",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Robert F.P. Ludwick",
+      "email": "rfpludwick@gmail.com",
+      "role": "Lead"
+    }
+  ],
+  "support": {
+    "email": "programmers@hostbaby.com",
+    "issues": "https://github.com/rfpludwick/phpcs-teamcity-report/issues",
+    "wiki": "https://github.com/rfpludwick/phpcs-teamcity-report/wiki",
+    "source": "https://github.com/rfpludwick/phpcs-teamcity-report"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "RFPLudwick\\PHPCS\\Reports\\": "src/"
+    }
+  }
+}
